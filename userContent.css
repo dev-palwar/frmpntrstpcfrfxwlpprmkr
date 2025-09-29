@@ -1,0 +1,22 @@
+/* Background image new tab page */
+
+@-moz-document url(about:newtab), url(about:home){
+.outer-wrapper {
+  /* The script will replace the timestamp dynamically */
+  background-image: url("images/cover.jpg") !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  color: grey !important;
+}
+
+.search-inner-wrapper {
+  display: none !important;
+}
+
+.non-collapsible-section {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0rem !important;
+}
+}
