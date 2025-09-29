@@ -1,4 +1,4 @@
-- figure out how to enable firefox css first
+- figure out how to enable firefox css first (this might help - https://github.com/dev-palwar/configs/tree/main/firefox)
 - navigate to about:profiles and open the default profile
 - there should be a chrome folder (create if not already there)
 - inside that create a images folder
